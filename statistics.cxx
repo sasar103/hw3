@@ -27,7 +27,7 @@ void statistics(double* p, double& m, double& v, int N){
     double v;
 
  RandNum(p, N);
- statistics(p, m, v, N)  
+ statistics(p, m, v, N);
     cout << "Mean = " << m << endl;
     cout << "Variance = " << v<< endl;
  
